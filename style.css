@@ -1,0 +1,135 @@
+.form-white.input-group>.form-control:focus {
+    border-color: #fff;
+    box-shadow: inset 0 0 0 1px #fff;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link:focus {
+    color: rgba(255, 255, 255, 0.75);
+}
+
+main {
+    background-color: rgba(173, 216, 230, 0.164);
+}
+
+/* .container-fluid{
+    /* border: 1px solid black;    
+} */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+}
+
+#video {
+    position: fixed;
+    top: 50%;
+    /* border: 2px solid green; */
+    width: 100%;
+
+
+}
+
+/* #four{
+    /* border: 3px solid blue; 
+} */
+
+.box1 {
+
+    /* border: 1px solid red; */
+    display: inline-flex;
+    width: 50%;
+
+}
+
+.box {
+    margin-top: 20%;
+    /* border: 1px solid black; */
+    width: 45%;
+    float: right;
+    text-align: center;
+}
+
+p {
+
+    font-size: 20px;
+    text-align: center;
+}
+
+#background-video {
+
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 1%;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    /* border: 3px solid black; */
+    padding: 10px;
+}
+
+#background-video1 {
+    width: 100vw;
+    height: 150vh;
+    object-fit: cover;
+    position: sticky;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+
+}
+
+.bgclr {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.bord {
+    margin: auto;
+    text-align: justify;
+    /* border: 1px solid white; */
+    padding: 5%;
+    height: 300px;
+
+}
+
+.copy {
+    margin: auto;
+}
+
+@media all and (max-width: 600px) {
+    .box1 {
+
+        /* border: 1px solid red; */
+        display: inline-flex;
+        width: 50%;
+        height: 900px;
+
+    }
+
+    .bgclr {
+        background-color: rgb(0, 0, 0);
+        width: 100%;
+        height: 1000px;
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+    
+    #five{
+        width: 100%;
+    }
+}
